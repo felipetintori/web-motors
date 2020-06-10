@@ -1,0 +1,62 @@
+@import "includes/variables";
+@import "includes/_header";
+@import "includes/_headerInternas";
+@import "includes/_home";
+@import "includes/_homeInternas";
+@import "includes/_footer";
+
+// ::::::::::::::::Default:::::::::::::::::::::
+
+body{
+    background-color: $color-body-default;
+    font-family: $font-default;
+    margin: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 933px;
+    width: 100%;
+}
+
+.row{
+    width: 100%;      
+    float: left;
+    display: block;
+}
+
+
+
+.col-25-webmotors{
+    width: 25%;
+    float: left;
+    @media only screen  and (max-width : $mobile){
+        width: 50%;
+    }
+}
+
+.col-3-webmotors{
+    width: 33.3%;
+    float: left;
+
+    @media only screen  and (max-width : $mobile){
+        width: 100%;
+
+    }
+}
+
+.col-6-webmotors{
+    width: 50%;
+    float: left;
+    @media only screen  and (max-width : $mobile){
+        width: 100%;
+
+    }
+}
+
+input:focus, select:focus{
+ 
+    outline-color: $color-red-default;
+        
+   
+}

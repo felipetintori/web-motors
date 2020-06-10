@@ -1,0 +1,23 @@
+header#header{
+    text-align: center;
+    .logo{
+        padding: 50px 0px 0px 0px;        
+    }    
+    ul.menu{
+        padding: 0px;
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                text-decoration: none;
+                padding:  10px;
+                display: block;
+                color: #000;
+                &.active{
+                    border-bottom: 3px solid $color-red-default;
+                    color: $color-red-default;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+#headerInternas{
+    width: 100%;
+    float: left;
+    height: 80px;
+    .logo{
+        
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    ul{
+        float: right;
+        li{
+            list-style: none;
+            display: inline-block;
+           
+            a{
+                text-decoration: none;
+                padding:  10px;
+                display: block;
+                color: #000;
+                &.active{
+                    border-bottom: 3px solid $color-red-default;
+                    color: $color-red-default;
+                }
+            }
+        }
+    }
+}
